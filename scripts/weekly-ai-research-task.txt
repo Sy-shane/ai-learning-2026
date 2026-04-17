@@ -1,0 +1,57 @@
+# Weekly AI Research Task
+
+## Goal
+每周搜索最新 AI 知识，整理核心发现，写入知识库并更新 MEMORY.md。
+
+## Steps
+
+### 0. Clone 最新知识库
+如果 /Users/syno1/.openclaw/workspace/ai-learning-2026 不存在或需要更新：
+```bash
+cd /tmp && git clone https://github.com/Sy-shane/ai-learning-2026.git
+```
+工作目录: /Users/syno1/.openclaw/workspace/ai-learning-2026
+
+### 1. 搜索最新 AI 动态
+使用 tavily-search 工具搜索以下主题（每次搜索 max_results=5）：
+- "AI agent framework developments 2026"
+- "OpenAI Codex updates 2026"
+- "Claude Code Anthropic CLI updates"
+- "local LLM edge AI 2026"
+- "LLM reasoning models frontier 2026"
+- "multi-agent AI systems research 2026"
+
+### 2. 整理核心发现
+从搜索结果中提炼：
+- 本周最重要的 3 个 AI 进展
+- 1-2 个值得关注的新工具或发布
+- 1 个有价值的 research 突破
+- 实际可落地的启发（1-2 条）
+
+### 3. 写入知识库
+在 /Users/syno1/.openclaw/workspace/ai-learning-2026/docs/weekly/ 下创建本周文件夹，格式：YYYY-WXX/
+写入 report.md，内容包含：
+- 本周搜索主题和结果摘要（表格形式）
+- Top findings（每个结果 3 条以内）
+- Key Insights（4 个分类）
+- Practical Takeaways
+
+### 4. 更新 resources/weekly/latest.md
+写入 Top 10 高分结果（按 relevance score 排序）
+
+### 5. 更新 MEMORY.md（如果知识库在 /Users/syno1/.openclaw/workspace/ai-learning-2026）
+在顶部添加本周核心发现段落（2-3 句话总结最重要的事）
+
+### 6. Push 到 GitHub（如果可行）
+cd /Users/syno1/.openclaw/workspace/ai-learning-2026
+git add -A
+git commit -m "docs: weekly AI learning — $(date +%Y-%m-%d)"
+git push
+
+### 7. 向用户汇报
+用飞书消息汇报本周最重要的 3 个发现（简洁，bullet points）
+
+## 输出要求
+- 每个搜索结果只保留最重要信息（title + 1-2 句 summary）
+- Key Insights 要有观点，不是简单的复述
+- Practical Takeaways 要具体可执行
