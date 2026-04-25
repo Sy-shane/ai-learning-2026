@@ -1,45 +1,20 @@
-# Latest AI Research — Top 10 Results
-**Updated:** 2026-04-18 | **Period:** 2026 Week 16 (Apr 12–18)
-_Sorted by Tavily relevance score (descending)_
+# Latest AI Research — Top 10 Results (2026-W16)
+
+*Sorted by Tavily relevance score, April 2026*
+
+| # | Score | Topic | Title | Summary |
+|---|---|---|---|---|
+| 1 | 0.999 | Reasoning models | [AI Reasoning Models: The Complete 2026 Prompting Guide](https://sureprompts.com/blog/ai-reasoning-models-prompting-complete-guide-2026) | 4-tier market split: general (o3/o4-mini), dense-work (Claude Opus 4.7), parallel (Gemini 2.5 Pro), open (DeepSeek R1/QwQ). "Think step by step" now counterproductive — models already reason internally. |
+| 2 | 0.999 | LLM benchmarks | [State of LLM Benchmarks 2026](https://benchlm.ai/blog/posts/state-of-llm-benchmarks-2026) | Proprietary frontier at ~94 vs best open-weight at ~85 on BenchLM. GLM-5 (Reasoning) leads open-weights at 85. |
+| 3 | 0.994 | LLM landscape | [Top 50+ LLMs in 2026](https://explodingtopics.com/blog/list-of-llms) | GPT-5.2, Gemini 3.1 Pro, Claude 4.6 Opus, Grok-4 lead proprietary. DeepSeek-V3.2 excels at math/coding. Context windows still matter but context engineering often beats window size. |
+| 4 | 0.991 | Open-source LLMs | [Best Open-Source LLMs 2026 — BentoML](https://www.bentoml.com/blog/navigating-the-world-of-open-source-large-language-models) | DeepSeek-V4, GLM-5.1, Qwen3.5-397B-A17B, Gemma 4, Kimi-K2.5, MiniMax-M2.7, MiMo-V2-Flash lead open-weights. BentoML as flexible inference platform. |
+| 5 | 0.980 | Visual understanding | [The Mirage of Visual Understanding in Frontier Models — Marcus on AI](https://garymarcus.substack.com/p/the-mirage-of-visual-understanding) | Stanford paper exposes frontier models generating detailed image descriptions that don't reflect actual visual understanding. |
+| 6 | 0.954 | Agent frameworks | [The Agentic Shift: GAIA, SnapState, Context Surgeon](https://www.epsilla.com/blogs/agent-dev-updates-april-2026) | GAIA enables local hardware agent execution. SnapState provides persistent multi-day state. Context Surgeon gives agents autonomous context window control. |
+| 7 | 0.935 | Claude Code | [Claude Code April 2026 Release Notes](https://releasebot.io/updates/anthropic/claude-code) | v2.1.119: native binary launcher, faster startup, worktree switching, PreCompact hook blocking, stronger sandbox, mobile push notifications. |
+| 8 | 0.926 | Agent frameworks | [Emerging AI Agent Frameworks 2026 Part 2](https://medium.com/@techlatest.net/emerging-ai-agent-frameworks-developers-should-watch-in-2026-part-2-92d49e75e867) | Pydantic AI (type-safe), VoltAgent (full-stack), Google ADK (code-first) emerge alongside CrewAI/AutoGen. |
+| 9 | 0.897 | Agent frameworks | [Top AI Agent Frameworks 2026: Production-Ready Comparison](https://pub.towardsai.net/top-ai-agent-frameworks-in-2026-a-production-ready-comparison-7ba5e39ad56d) | LangGraph leads reliability (5★), Anthropic SDK and AutoGen 2.0 at 4★. Cost risk: AutoGen 2.0 highest (unbounded loops). |
+| 10 | 0.897 | Agent frameworks | [Top 5 AI Agent Frameworks 2026 — Intuz](https://www.intuz.com/blog/top-5-ai-agent-frameworks-2025) | LangGraph (stateful graphs), CrewAI (role-based teams), AutoGen (multi-agent conversations), OpenAgents (financial tasks), MetaGPT (software dev) each target distinct use cases. |
 
 ---
 
-## #1 — India Vibe-Coding Startup Enters OpenClaw-like AI Agent Space
-**Score:** 0.9994 | **Source:** TechCrunch | **Date:** Apr 15, 2026
-India's Emergent (vibe-coding platform) launches "Wingman" — a messaging-first autonomous AI agent that operates in the background to complete tasks, directly competing with OpenClaw and Claude. Driven by the insight that vibe-coding users want to go beyond building software to operating autonomously through it.
-
-## #2 — Microsoft Testing Always-On OpenClaw-like AI Agents for Copilot
-**Score:** 0.9994 | **Source:** GIGAZINE | **Date:** Apr 14, 2026
-Microsoft is integrating OpenClaw-like always-on autonomous agent capabilities into Microsoft 365 and Copilot. Features expected at Microsoft Build (June 2, 2026). Also launching "Copilot Cowork" integrating Anthropic's Claude Cowork technology for automated PC tasks.
-
-## #3 — New Codex Features: Background Computer Use
-**Score:** 0.9307 | **Source:** Ars Technica | **Date:** Apr 16, 2026
-OpenAI Codex major update adds: background computer use (operates your Mac without interrupting you), in-app Atlas browser with page commenting, gpt-image-1.5 image generation, and 90+ new plugins. Unifying theme: building toward an OpenAI "super app" merging Codex, Atlas, and ChatGPT.
-
-## #4 — OpenAI $100 Pro Plan Targets Claude Max
-**Score:** 0.8440 | **Source:** The Next Web | **Date:** Apr 12, 2026
-OpenAI launched $100/month Pro plan (Apr 9) priced identically to Anthropic's Claude Max 5x tier. Offers 5x more Codex usage than Plus; launch promo doubles to 10x through May 31, 2026. Directly targets power users who exhaust Plus-tier Codex limits.
-
-## #5 — Cursor, Claude Code, and Codex Merging Into One AI Coding Stack
-**Score:** 0.7724 | **Source:** The New Stack | **Date:** Apr 12, 2026
-Three major AI coding tools forming a composable stack rather than consolidating into one: Cursor for orchestration, Claude Code for execution, Codex for OpenAI integration. OpenAI published an official plugin inside Claude Code. Early adopters running all three together.
-
-## #6 — Claude Code Desktop Rebuilt Around Parallel Sessions
-**Score:** 0.7109 | **Source:** MacRumors | **Date:** Apr 15, 2026
-Anthropic redesigned Claude Code desktop app with sidebar session management, drag-and-drop layout, and Routines (automations that run without active sessions). Rolling out to Pro/Max/Team/Enterprise. Meanwhile, users report usage limits burning out at suspiciously fast rates.
-
-## #7 — Anthropic Reveals Claude Opus 4.7 with Focus on Software Engineering
-**Score:** 0.7024 | **Source:** 9to5Mac | **Date:** Apr 16, 2026
-Claude Opus 4.7 released with focus on advanced software development. Anthropic established a more predictable bi-monthly Claude Opus upgrade cadence. New /ultrareview command flags what a careful code reviewer would catch. Mythos remains unreleased.
-
-## #8 — Anthropic Concedes Opus 4.7 Trails Unreleased Mythos
-**Score:** 0.6528 | **Source:** Axios | **Date:** Apr 16, 2026
-Anthropic publicly acknowledged that Opus 4.7 doesn't match the performance of Claude Mythos, which is being withheld from public release due to safety concerns. Introduces new "xhigh" reasoning effort level between high and max for finer latency/reasoning control.
-
-## #9 — Anthropic Launches Claude Design (Research Preview)
-**Score:** 0.6453 | **Source:** 9to5Mac | **Date:** Apr 17, 2026
-Claude Design is Anthropic's new research preview product powered by Opus 4.7. Builds a design system for your team by reading your codebase and design files, then enables design refinement, collaboration, and file export. Available for Pro/Max/Team/Enterprise.
-
-## #10 — Anthropic Mythos: Pandora's Box of AI Extensional Risks
-**Score:** 0.6167 | **Source:** Forbes | **Date:** Apr 13, 2026
-Forbes analysis of why Anthropic hasn't released Claude Mythos: extensional risks (the model finding passwords on government computers, cybersecurity implications). Anthropic faces ethical obligation to notify affected parties before release — setting precedent for pre-release AI safety disclosure.
+*Last updated: 2026-04-25 (2026-W16)*
