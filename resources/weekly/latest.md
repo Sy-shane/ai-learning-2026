@@ -1,28 +1,29 @@
-# Latest AI Research — Top 10 Results (2026-W19)
+# Latest AI Research — Top 10 Results (2026-W20)
 
-> 按 relevance score 排序，来源 Tavily 搜索（2026-05-09）
+> 按 relevance score 排序，来源 Tavily 搜索（2026-05-10 ~ 2026-05-16）
 
 | Rank | Score | 主题 | Title | Summary |
 |------|-------|------|-------|---------|
-| 1 | 0.999 | multi-agent AI systems | Multi-Agent Frameworks Explained for Enterprise AI Systems [2026] | 2026年多智能体系统企业采用率将达71%，Gartner关注度增长1445%，Databricks多智能体工作流增长327%。微软Copilot Studio、亚马逊Bedrock AgentCore、谷歌Vertex AI全面更新平台。 |
-| 2 | 0.999 | multi-agent AI systems | The Rise of Multi-Agent Systems: Why 2026 Is the Year AI Learns to Work as a Team | 企业级多智能体框架已成熟，微软Copilot Studio（实时编排+活动地图）、Amazon Bedrock AgentCore（4月1日SDK）、Google Vertex AI Agent Builder（下载超700万次）全面竞争。 |
-| 3 | 0.999 | multi-agent AI systems | Getting Up to Speed on Multi-Agent Systems, Part 1: The Landscape | 澄清多智能体系统常见误解，指出SWE-agent等"单Agent+好工具接口"架构在特定benchmark上的优势，2026年多智能体研究正在从"增加Agent"转向"协调效率优化"。 |
-| 4 | 0.986 | AI agent frameworks | Emerging AI Agent Frameworks Developers Should Watch in 2026 (Part 2) | 第二波框架正在解决"边界case、生产约束和全新思考方式"，包括Pydantic AI（类型安全）、VoltAgent（全栈平台）、Google ADK（代码优先生产级）等。 |
-| 5 | 0.985 | AI agent frameworks | When prompts become shells: RCE vulnerabilities in AI agent frameworks | 微软安全团队披露Semantic Kernel两个RCE漏洞（CVE-2026-26030/CVE-2026-25592），提示符注入攻击在Agent框架中被设计性地放大，安全将成为选型首要标准。 |
-| 6 | 0.986 | Claude Code updates | Anthropic update on recent Claude Code quality reports | Opus 4.7的"冗长倾向"导致Code Review质量问题，Anthropic公布完整postmortem并宣布改进内部测试流程，确保公开版与内部版一致。 |
-| 7 | 0.985 | AI agent frameworks | What's the current best stack for building AI agents in 2026? | Reddit社区讨论2026年AI Agent开发技术栈，LangGraph/CrewAI/Google ADK是高频推荐选项，Claude Code成为新的编程Agent标杆。 |
-| 8 | 0.984 | multi-agent frameworks | Best Multi-Agent Frameworks in 2026: LangGraph, CrewAI, OpenAI SDK and Google ADK | LangGraph月搜索量27,100（领先CrewAI 14,800），成为生产标准。OpenAI Agents SDK已取代Swarm，框架竞争进入"可观测性+容错+互操作"下半场。 |
-| 9 | 0.982 | AI agent frameworks | What are AI Agent Frameworks — 2026 Comprehensive Guide | 三类框架分层：开发者导向（LangChain/LangGraph/AutoGen）、低代码可视化（Flowise/Voiceflow）、企业托管（Copilot Studio/Vertex）。LangGraph的图状态管理是复杂多步工作流的首选。 |
-| 10 | 0.935 | OpenAI Codex | OpenAI Codex for (Almost) Everything: Release Guide | 4月16日Codex重大更新：后台Computer Use、90+插件、400K token上下文、原生Mac应用控制。5月7日Chrome扩展发布，Codex从编程工具升级为全工作流平台。 |
+| 1 | 1.000 | AI agent frameworks | 12 Best AI Agent Frameworks in 2026 (Compared & Ranked) | 框架生态2026定型：Claude Agent SDK（Anthropic首选）、LangGraph（复杂状态流）、Vercel AI SDK（TypeScript）、OpenAI Agents SDK、 CrewAI 各占赛道，SDK自带工具链替代2024年的"副业"RAG/工具注册模式 |
+| 2 | 1.000 | AI agent frameworks | Reliable Agentic AI Frameworks for Enterprise in 2026 | 企业级Agent框架可靠性评估，第三篇系列文章，关注替代架构与战略风险 |
+| 3 | 1.000 | AI agent frameworks | Best Python AI Agent Frameworks in 2026 Compared | 12个生产级Python框架横评：LangGraph状态管理最佳但学习曲线陡，CrewAI快速原型，smolagents轻量，ADK代码优先 |
+| 4 | 1.000 | Claude Code updates | Claude Code Agent View: CLI Dashboard Unifies All Sessions (May 11, 2026) | Anthropic推出Agent View：统一CLI仪表盘管理并行会话，`claude agents`命令启动，终结tmux/多tab管理困境 |
+| 5 | 0.999 | Claude Code updates | Anthropic adds Agent View to Claude Code CLI interface | Agent View支持后台任务（/bg）、inline回复、空格键预览、按Enter进入完整会话，Claude Code向企业级Agent操作层演进 |
+| 6 | 0.997 | Claude Code updates | Anthropic's New Claude Billing Changes for Zed Users | 6月15日账单分离：第一方工具（官方Claude Code CLI）vs第三方SDK/ACP分开计费，Zed+ACP用户不再占用Pro/Max订阅额度 |
+| 7 | 0.958 | OpenAI Codex | Codex Updates & Release Notes — May 2026 | Codex 5月更新：Chrome扩展（并行浏览器操作）、Bedrock认证、stable hooks、快速默认模式、Plus/Pro/Team可用 |
+| 8 | 0.941 | OpenAI Codex | OpenAI 2026 Updates: Codex Pricing, Agents SDK & Multimodal | 按需付费定价+增强版Agents SDK，多模态能力扩展，开发者/创业团队/自动化专家为主要受益群体 |
+| 9 | 0.928 | OpenAI Codex | Codex user base grows to 4 million; 1 million added in 2 weeks | Codex用户破400万（周增100万），Plus用户开放，联网功能（可选）、安装/测试/升级内置 |
+| 10 | 0.922 | OpenAI Codex | OpenAI Addresses Codex CLI Goblin Bias and 2026 Model Behavior Updates | "Goblin Bias"事件：模型异常大量输出goblin/gremlin等无意义内容，需显式指令抑制，奖励信号如何以不可预期方式塑造模型行为的真实案例 |
 
 ---
 
 ## 本周高分发现速览
 
-- **OpenAI Codex 单周 9000 万安装**（GPT-5.5 驱动），Claude Code 质量 postmortem 披露
-- **多智能体框架三足鼎立**：LangGraph（最成熟）、CrewAI（快速上手）、Google ADK（代码优先）
-- **微软披露 Semantic Kernel RCE 漏洞**，AI Agent 安全风险进入主流视野
-- **开源模型逼近前沿**：DeepSeek V4 Pro（87）、Kimi K2.6（84）、GLM-5.1（83）vs 闭源领袖 93
-- **Grok 4.20** 内置多 Agent 辩论推理，复杂推理从 prompt 技巧变为基础设施能力
+- **Claude Code Agent View**（5月11日）：并行会话管理仪表盘，claude agents命令，Claude Code从编程工具向企业级Agent操作层迁移
+- **Anthropic 6月15日账单分离**：官方CLI vs ACP/第三方SDK分开计费，Zed用户需注意成本影响
+- **多智能体进入主流**：40%企业应用将在2026年底嵌入AI Agent（从2025年<5%跃升），Anthropic宣布Claude Managed Agents支持20个专业Agent编排
+- **Codex 4M用户**：周增100万，Chrome扩展发布，从编程工具升级为全工作流平台
+- **Gemma 4 + llama.cpp**：本地LLM从"好奇心"变成真正的日常工具，隐私敏感场景（本地文档/内部代码）的新选择
+- **FrontierMath接近饱和**：GPT-5.5 Pro 52.4%领跑，前沿模型在2.4分区间内，说明数学推理正在商品化
 
-*最后更新：2026-05-09*
+*最后更新：2026-05-16*
